@@ -1,0 +1,1 @@
+El trabajo estuvo bastante facil,no tuvo tantos commits por la falta de dedicacion,y que mayormente el trabajo se llevo fuera del git

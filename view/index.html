@@ -1,59 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFORMATICA APLICADA</title>
-    <link rel="shortcut icon" type="image/png" href="/IMG/ticon-modified.png" class="logo">
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="/style/style.css">
+    
 </head>
 <body>
-    <span class="titulo"><h1>OBJETIVO DE LA INFORMÁTICA EN ADMINISTRACIÓN</h1></span>
-    <div class="contenedor">
-        <h1>Preguntas y respuestas sobre informática</h1>
+    <h1>OBJETIVO DE LA INFORMÁTICA EN ADMINISTRACIÓN</h1>
 
-        <div class="pregunta">
-            <h2>3. Según tu punto de vista……. Qué opinas de la afirmación “La informática está presente en nuestra vida cotidiana”. Desarrolla tu respuesta sin ayuda externa.</h2>
-            <p class="respuesta" id="respuesta3"></p>
-            <button onclick="mostrarRespuesta('respuesta3')">Mostrar respuesta</button>
+    <div id="preguntas">
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta1')">Según tu punto de vista……. Qué opinas de la afirmación “La informática está
+            presente en nuestra vida cotidiana”. Desarrolla tu respuesta sin ayuda externa. </h2>
+        <div id="respuesta1" class="respuesta-container respuesta">
+          <p>"La informática está presente en nuestra vida cotidiana": La afirmación es cierta. La informática se ha vuelto omnipresente en nuestra vida diaria. Está integrada en diversos aspectos, como la comunicación, el entretenimiento, el trabajo, la educación y el acceso a la información. Desde el uso de teléfonos inteligentes y computadoras hasta transacciones en línea, la informática ha transformado la forma en que vivimos y nos relacionamos con el mundo.</p>
         </div>
 
-        <div class="pregunta">
-            <h2>4. Explica la finalidad de la informática en los procesos administrativos y sus ventajas.</h2>
-            <p class="respuesta" id="respuesta-4"></p>
-            <button onclick="mostrarRespuesta('respuesta-4')">Mostrar respuesta</button>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta2')">Explica la finalidad de la informática en los procesos administrativos y sus
+            ventajas.</h2>
+        <div id="respuesta2" class="respuesta-container respuesta">
+            <p>Finalidad de la informática en los procesos administrativos y sus ventajas: La informática en los procesos administrativos tiene como finalidad mejorar la eficiencia y precisión de las tareas administrativas. Permite automatizar actividades repetitivas, almacenar y gestionar datos de manera segura, facilitar la toma de decisiones basadas en información actualizada, agilizar la comunicación interna y externa, y optimizar la planificación y organización de recursos. Sus ventajas incluyen la reducción de errores, ahorro de tiempo, mayor productividad y capacidad de análisis de datos para mejorar la toma de decisiones.</p>
         </div>
 
-        <div class="pregunta">
-            <h2>5. Teniendo en cuenta la lectura…. ¿A quiénes se limitaba la implementación de recursos informáticos?</h2>
-            <p class="respuesta" id="respuesta-5"></p>
-            <button onclick="mostrarRespuesta('respuesta-5')">Mostrar respuesta</button>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta3')">Según tu punto de vista... ¿Qué opinas de la afirmación "La informática está presente en nuestra vida cotidiana"? Desarrolla tu respuesta sin ayuda externa.</h2>
+  -      <div id="respuesta3" class="respuesta-container respuesta">
+           <p></p>
+        </div>-
+
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta4')">Explica la finalidad de la informática en los procesos administrativos y sus ventajas.</h2>
+        <div id="respuesta4" class="respuesta-container respuesta">
+            <p></p>
         </div>
 
-        <div class="pregunta">
-            <h2>6. ¿Qué hizo posible que hoy pequeñas y medianas empresas puedan contar con estos recursos?</h2>
-            <p class="respuesta" id="respuesta-6"></p>
-            <button onclick="mostrarRespuesta('respuesta-6')">Mostrar respuesta</button>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta5')">Teniendo en cuenta la lectura... ¿A quiénes se limitaba la implementación de recursos informáticos?</h2>
+        <div id="respuesta5" class="respuesta-container respuesta">
+            <p></p>
+
         </div>
 
-        <div class="pregunta">
-            <h2>7. ¿Cómo fue creciendo el uso de los recursos informáticos en las empresas?</h2>
-            <p class="respuesta" id="respuesta-7"></p>
-            <button onclick="mostrarRespuesta('respuesta-7')">Mostrar respuesta</button>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta6')">¿Qué hizo posible que hoy pequeñas y medianas empresas puedan contar con estos recursos?</h2>
+        <div id="respuesta6" class="respuesta-container respuesta">
+            <!-- Aquí va la respuesta 6 -->
         </div>
 
-        <div class="pregunta">
-            <h2>8. ¿Cuál es el sector de las empresas que se vió más beneficiado por el uso de los recursos informáticos? ¿Cuáles son las mejoras que se pudieron lograr?</h2>
-            <p class="respuesta" id="respuesta-8"></p>
-            <button onclick="mostrarRespuesta('respuesta-8')">Mostrar respuesta</button>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta7')">¿Cómo fue creciendo el uso de los recursos informáticos en las empresas?</h2>
+        <div id="respuesta7" class="respuesta-container respuesta">
+          
         </div>
 
-        <div class="pregunta">
-            <h2>9. Realiza un listado de programas o aplicaciones que utilizas actualmente y describe su función</h2>
-            <p class="respuesta" id="respuesta-9"></p>
-            <button onclick="mostrarRespuesta('respuesta-9')">Mostrar respuesta</button>
-            </div>
-            <script src="/javascript.js"></script>
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta8')">¿Cuál es el sector de las empresas que se vio más beneficiado por el uso de los recursos informáticos? ¿Cuáles son las mejoras que se pudieron lograr?</h2>
+        <div id="respuesta8" class="respuesta-container respuesta">
+
+        </div>
+        
+        <h2 class="pregunta" onclick="toggleRespuesta('respuesta9')">¿Cuál es el sector de las empresas que se vio más beneficiado por el uso de los recursos informáticos? ¿Cuáles son las mejoras que se pudieron lograr?</h2>
+        <div id="respuesta9" class="respuesta-container respuesta">
+
+        h
+        </div>  
+        <script src="/main.js"></script>
 </body>
 </html>
