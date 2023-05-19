@@ -4,5 +4,5 @@ function toggleRespuesta(preguntaId) {
     respuesta.style.display = 'block';
   } else {
     respuesta.style.display = 'none';
-  }
+  } 
 }
